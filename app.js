@@ -102,7 +102,7 @@ app.post('/register', function (req, res) {
       if (results.length != 0) {
         res.status(200).json({
           "success": true,
-          "message": "Berhasil login",
+          "message": "Berhasil daftar",
           "data": null
         });
 
