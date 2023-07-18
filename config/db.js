@@ -2,9 +2,9 @@ const mysql = require('mysql')
 const conn = mysql.createPool({
   host: "localhost",
   user: "root",
-  password: "root",
+  password: "",
   charset: "utf8mb4",
-  database: "kuliah",
+  database: "db_unindra_skrips",
   timezone: '+00:00'
 })
 conn.getConnection((err) => {
